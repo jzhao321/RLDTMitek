@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+}
+
+.graphContainer{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.graphContainer > p{
+
+}
+
+.graphContainer > div{
+  height: 400px;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.sampledData{
+  height: 400px;
+}
+
+.sampledData > div{
+  flex: 1;
+}
+
+.smoothedData{
+  height: 400px;
+}
